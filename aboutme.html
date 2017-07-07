@@ -5,14 +5,28 @@
   </head>
   
   <body>
-    
-<h1 style="All About ME; color:LightCoral"> 
-  All About ME!</h1>
+
+<h1 id="demo">All About ME!</h1>
+
+<script>
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+    document.getElementById("demo").style.color = "blue";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "LightCoral";
+}
+</script>
+ 
+  </h1>
     
    <p> Hi my name is Kacie Sorfleet. I am very adventurous and I love to travel.
      My hobbies include playing sports and walking my dog, Char, who is a yellow labrador mix.</p>
    
-   <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/YellowLabradorLooking_new.jpg"
+   <img src="Char.jpg"
    style="width:25%;height:25%">
     
      <p> I live along the california coast in a small town called Moss Beach.
